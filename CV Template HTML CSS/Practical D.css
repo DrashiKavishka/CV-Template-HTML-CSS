@@ -1,0 +1,118 @@
+*{
+	box-sizing:border-box;
+}
+
+
+
+.container{
+	width:100%;
+	background-color:#ddd;
+	border-radius:0 15px 15px 0;
+	position:relative;
+	margin:0 auto;
+}
+.container img{
+	width:100%;
+	display:block;
+	margin:auto;
+	vertical-align:middle;
+}
+.name{
+	 position: absolute;
+	 width:100%;
+     bottom: 0px;
+	width: 80%;
+	padding:0 0 30px;
+	color:white;
+	
+}
+.skills{
+	text-align:right;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	border-radius:0 15px 15px 0;
+}
+.html{
+	width:90%;
+	background-color:#20B2AA;
+}
+.css{
+	width:80%;
+	background-color:#20B2AA;
+}
+.js{
+	width:75%;
+	background-color:#20B2AA;
+}
+.php{
+	width:60%;
+	background-color:#20B2AA;
+}
+.sinhala{
+	width:100%;
+	background-color:#20B2AA;
+}
+.english{
+	width:50%;
+	background-color:#20B2AA;
+}
+.Langugse{
+	text-align:right;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	border-radius:0 15px 15px 0;
+}
+
+.leftcolumn{
+	text-align:left;
+	padding:3px;
+	width:25%;
+	margin:0;
+	float:left;
+}
+.rightcolumn{
+	text-align:left;
+	padding:3px;
+	width:75%;
+	margin:0;
+	float:left;
+}
+.card1{
+	width:100%;
+	border:1px solid;
+	padding:5px;
+	box-shadow:1px 1px 5px;
+}
+.card2{
+	width:100%;
+	border:1px solid;
+	padding:5px;
+	margin:10px 0px;
+	box-shadow:1px 1px 5px;
+}
+.card3{
+	width:100%;
+	border:1px solid;
+	margin:10px 0px;
+	padding:5px;
+	box-shadow:1px 1px 5px;
+}
+
+.row:after{
+	clear:both;
+	content:"";
+	display:block;
+}
+
+.footer{
+	float:left;
+	width:100%;
+	padding:20px;
+	text-align:center;
+	font-size:25px;
+	background-color:#00B7C7;
+	color:white;
+	
+}
